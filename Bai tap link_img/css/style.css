@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2980D9;
+}
+
+a:hover {
+    color: #019875;
+    font-weight: bold;
+}
+
+#page, #page_ct {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#page h1 {
+    text-align: center;
+    color: #2980D9;
+}
+
+#page_ct h3 {
+    color: #3498DB;
+    font-style: italic;
+}
+
+#page_ct p {
+    text-indent: 20px;
+}
+
+.hinhdanhmuc {
+    max-width: 300px;
+}
+
+.hinhchitiet {
+    max-width: 500px;
+}
