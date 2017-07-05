@@ -67,7 +67,7 @@
 @keyframes abc {
     0% {transform: translate(0, 0);}
     33% {transform: translateX(-500px); opacity: 0;}
-    66% {transform: translateX(170px); opacity: 0;}
+    66% {transform: translateX(180px); opacity: 0;}
     100% {opacity: 1;}
 }
 
