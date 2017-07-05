@@ -13,6 +13,14 @@
     max-width: 1000px;
 }
 
+@keyframes title {
+    0% {color: #019875;}
+    25% {color: #2980D9;}
+    50% {color: #C0392D;}
+    75% {color: #2C3E50;}
+    100% {color: #8E44AD;}
+}
+
 .contain h1 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -20,6 +28,7 @@
     margin-bottom: 10px;
     text-transform: capitalize;
     text-align: center;
+    animation: title 5s linear infinite;
 }
 
 .box-picture {
@@ -43,7 +52,7 @@
 
 .shadow:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 5px #7F8C8D;
+    box-shadow: 0 6px 5px #7F8C8D;
 }
 
 .scale img {
@@ -55,16 +64,21 @@
     opacity: 0.6;
 }
 
+@keyframes abc {
+    0% {transform: translate(0, 0);}
+    33% {transform: translateX(-500px); opacity: 0;}
+    66% {transform: translateX(170px); opacity: 0;}
+    100% {opacity: 1;}
+}
+
 .animation-text {
     font-weight: bold;
     text-align: right;
     margin-right: 15px;
-    animation: text 5s ease infinite;
+    animation: abc 5s ease infinite;
 }
 
-@keyframes text {
-    0% {transform: translate(0, 0);}
-    33% {transform: translateX(-500px); opacity: 0;}
-    66% {transform: translateX(80px); opacity: 0;}
-    100% {opacity: 1;}
+.box-text {
+    clear: both;
+    overflow-x: hidden;
 }
